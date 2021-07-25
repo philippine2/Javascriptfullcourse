@@ -20,4 +20,13 @@ function reset(){
 }
 
 
+// challenge 2: cat challenge
+function generateCat(){
+    let image = document.createElement("img");
+    let div = document.getElementById("flex-catgen")
+    image.src = "https://thecatapi.com/api/images/get?format=src&type=git&size=small";
+    div.appendChild(image)
+}
+
+
 
